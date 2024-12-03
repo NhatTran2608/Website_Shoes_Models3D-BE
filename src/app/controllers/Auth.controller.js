@@ -6,6 +6,7 @@ const Order = require('../models/Order.model.js')
 const dotenv = require('dotenv');
 dotenv.config()
 const authController = {
+    // aa 
     async signUp(req, res) {
         const { fullName, username, email, password } = req.body;
         try {
