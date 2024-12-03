@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const mongooseDelete = require('mongoose-delete');
 const Schema = mongoose.Schema;
-//avc
+//av
 const Cart = new Schema(
     {
         user_id: {
